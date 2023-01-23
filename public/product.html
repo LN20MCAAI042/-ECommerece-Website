@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Product page</title>
+
+    <link rel="preconnect" href="http://fonts.googleleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleleapis.com/css2?family=cinzel&family=Loto&display=swp" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar bg">
+        <ul class="links-container">
+            <li class="link-item"><a href="#" class="link active">HOME</a></li>
+            <li class="link-item"><a href="#" class="link">PRODUCT</a></li>
+            <li class="link-item"><a href="#" class="link">ABOUT</a></li>
+            <li class="link-item"><a href="#" class="link">CONTACT</a></li>
+        </ul>
+        <div class="user-interaction">
+            <div class="cart">
+               <img src="./css/img/cart.png" class="cart-user" alt="">
+               <span class="cart-item-count">00</span>
+            </div>
+            <div class="user">
+                <img src="./css/img/user.png" class="user-icon" alt="">
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- PRODUCT DETAILS -->
+    <section class="product-section">
+        <img src="./css/img/product-image.png" class="product-image" alt="">
+        <div class="product-detail">
+            <h1 class="product-title">PREMIUM SOFA</h1>
+            <p class="product-des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos temporibus, consequatur impedit voluptates repellat, mollitia culpa voluptatem iusto corrupti ad quidem illum eius consequuntur corporis, tempora quo atque.</p>
+            <div class="rating">
+                <img src="./css/img/fill star.png" class="star" alt="">
+                <img src="./css/img/fill star.png" class="star" alt="">
+                <img src="./css/img/fill star.png" class="star"  alt="">
+                <img src="./css/img/fill star.png" class="star" alt="">
+                <img src="./css/img/no fill star.png" class="star" alt="">
+                <span class="rating-count">5,620 reviews</span>
+            </div>
+            <p class="price">$1099</p>
+            <div class="btn-container">
+                <button class="product-btn buy-btn">BUY NOW</button>
+                <button class="product-btn cart-btn">ADD TO CART</button>
+            </div>    
+        </div>
+    </section>
+
+    <section class="detail-des">
+        <h1 class="section-title">DETAILS</h1>
+        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate nesciunt non nihil consectetur iste mollitia, doloremque voluptates dicta dolor amet aspernatur laudantium assumenda cum, voluptatibus autem tenetur molestias unde sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, exercitationem perferendis commodi esse nemo natus magnam. <br> Beatae ut velit iure incidunt! Blanditiis sed, eaque aperiam consectetur velit sequi ex optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque asperiores quos enim nisi deserunt. Eligendi, facere laudantium ut cumque itaque voluptatum aliquam ab, ducimus consequuntur aliquid obcaecati, velit aperiam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Cum molestiae officia aliquid fuga asperiores aperiam necessitatibus recusandae sed velit quaerat, commodi optio laboriosam quae repellat repudiandae dolorem. Nihil, officiis deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus expedita ex velit eaque voluptate aperiam tempore consequuntur itaque ducimus officiis placeat voluptatum doloribus, optio deleniti laudantium vitae sed id. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, explicabo? Accusamus sed ad adipisci, quod praesentium corporis, inventore enim aperiam illo neque iusto eos consectetur corrupti fugit itaque quis rem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, iusto aperiam sit fugit nam at accusantium non mollitia tenetur quisquam assumenda esse facilis commodi asperiores omnis quam harum! Veritatis, minima.</p>
+    </section>
+
+    <!-- REVIEW SECTION -->
+
+    <section class="review-section">
+        <h1 class="section-title">REVIEWS</h1>
+        <div class="review-container">
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="./css/img/user 1.png" alt=""></div>
+                <h2 class="review-title">Best Quality More Than Expectation</h2>
+                <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, labore at voluptas nemo soluta consequatur vel tenetur fuga iusto ea consequuntur pariatur voluptatem maxime velit laudantium aut numquam, quas voluptatibus?</p>
+            </div>
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="./css/img/user 2.png" alt=""></div>
+                <h2 class="review-title">Awesome Product</h2>
+                <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, labore at voluptas nemo soluta consequatur vel tenetur fuga iusto ea consequuntur pariatur voluptatem maxime velit laudantium aut numquam, quas voluptatibus?</p>
+            </div>
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="./css/img/user 3.png" alt=""></div>
+                <h2 class="review-title">Good Quality</h2>
+                <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, labore at voluptas nemo soluta consequatur vel tenetur fuga iusto ea consequuntur pariatur voluptatem maxime velit laudantium aut numquam, quas voluptatibus?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ADD REVIEW FORM -->
+
+
+    <section class="add-review-section">
+        <h1 class="section-title">ADD A REVIEW</h1>
+        <input type="text" class="review-headline" placeholder="review headline">
+        <textarea placeholder="review" class="review-field"></textarea>
+        <p class="rating-text">HOW MUCH YOU LIKE THE PRODUCT</p>
+        <div class="star-container">
+            <img src="./css/img/no fill star.png" class="rating-star" alt="">
+            <img src="./css/img/no fill star.png" class="rating-star" alt="">
+            <img src="./css/img/no fill star.png" class="rating-star"  alt="">
+            <img src="./css/img/no fill star.png" class="rating-star" alt="">
+            <img src="./css/img/no fill star.png" class="rating-star" alt="">
+        </div>
+        <button class="add-review-btn">ADD REVIEW</button>
+    </section>
+
+
+    <!-- SIMILAR PRODUCT -->
+
+     <section class="best-selling-product-section">
+        <h1 class="section-tit">SIMILAR PRODUCT</h1>
+     <div class="product-container">
+        <div class="product-card">
+            <img src="./css/img/product-1.png" class="product-img" alt="">
+            <p class="product-name">LIGHTS </p>
+        </div>
+        <div class="product-card">
+            <img src="./css/img/product-2.png" class="product-img" alt="">
+            <p class="product-name">TABLES </p>
+        </div>
+        <div class="product-card">
+            <img src="./css/img/product-3.png" class="product-img" alt="">
+            <p class="product-name">STORAGE </p>
+        </div>
+        <div class="product-card">
+            <img src="./css/img/product-4.png" class="product-img" alt="">
+            <p class="product-name">SOFA </p>
+        </div>
+    </div>
+    </section>
+
+    <footer>!---------- Made By RAJEEV RANJAN.<span>   PIN-804422. Mobile-7870569758. Email- r.rs1542000@gmail.com ----------!</span></footer>
+    <script src="./js/product.js"></script>
+</body>
+</html>
